@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <title>Sena & Burak | Düğün Davetiyesi</title>
+  <meta name="description" content="Sena & Burak düğün davetiyesi" />
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <audio id="bgMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg" />
+  </audio>
+
+
+  <button class="music-button" id="musicButton">Müziği Aç</button>
+
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-content reveal">
+      <p class="eyebrow">Düğün Davetiyesi</p>
+      <h1>Sena & Burak</h1>
+
+
+      <p class="hero-text">
+        Bu özel günümüzde sizleri de yanımızda görmekten mutluluk duyarız.
+      </p>
+
+
+      <div class="hero-actions">
+        <a href="#details" class="primary-button">Davetiyeyi Aç</a>
+        <a href="#rsvp" class="secondary-button" id="rsvpBtn">LCV</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="details" class="section reveal">
+      <div class="scratch-wrap">
+        <p class="scratch-label">Düğün Tarihi</p>
+
+
+        <div class="scratch-card" id="scratchCard">
+          <span class="scratch-date">19 Eylül 2026</span>
+          <canvas id="scratchCanvas"></canvas>
+        </div>
+      </div>
+<div class="countdown-area" id="countdownArea">
+  <p class="section-kicker">Geri Sayım</p>
+  <h2>Düğünümüze Kalan Süre</h2>
+
+
+  <div class="countdown" id="countdown">
+    <div><strong id="days">00</strong><span>Gün</span></div>
+    <div><strong id="hours">00</strong><span>Saat</span></div>
+    <div><strong id="minutes">00</strong><span>Dakika</span></div>
+    <div><strong id="seconds">00</strong><span>Saniye</span></div>
+  </div>
+</div>
+    </section>
+
+
+    <section class="section reveal">
+      <p class="section-kicker">Bizden Kareler</p>
+      <h2>Birlikte Güzel Bir Hikaye</h2>
+
+
+      <div class="slider">
+        <button class="slider-btn prev" id="prevPhoto">‹</button>
+
+
+        <div class="slider-window">
+          <img id="photoSlider" src="assets/photo-1.jpg" alt="Sena ve Burak fotoğrafı" />
+        </div>
+
+
+        <button class="slider-btn next" id="nextPhoto">›</button>
+      </div>
+    </section>
+
+
+    <section class="section text-section reveal">
+      <p class="section-kicker">Davet</p>
+      <h2>Bu Mutluluğu Birlikte Paylaşalım</h2>
+
+
+      <p>
+        Hayatımızın en özel günlerinden birinde, sevdiklerimizle aynı sofrada,
+        aynı heyecanda ve aynı güzel anılarda buluşmak istiyoruz.
+      </p>
+
+
+      <p>
+        Sizleri de düğünümüzde yanımızda görmekten büyük mutluluk duyarız.
+      </p>
+    </section>
+
+
+    <section class="section reveal">
+      <p class="section-kicker">Program</p>
+      <h2>Düğün Akışı</h2>
+
+
+      <div class="timeline-modern">
+        <div class="timeline-row left">
+          <div class="timeline-content">
+            <span class="timeline-time">19:00 - 19:20</span>
+            <h3>Karşılama</h3>
+            <p>Konukların karşılanması</p>
+          </div>
+        </div>
+
+
+        <div class="timeline-row right">
+          <div class="timeline-content">
+            <span class="timeline-time">19:30 - 20:00</span>
+            <h3>İlk Dans</h3>
+            <p>Gelin ve damadın ilk dansı</p>
+          </div>
+        </div>
+
+
+        <div class="timeline-row left">
+          <div class="timeline-content">
+            <span class="timeline-time">20:00 - 21:00</span>
+            <h3>Pasta Seremonisi</h3>
+            <p>Düğün pastasının kesilmesi ve servisi</p>
+          </div>
+        </div>
+
+
+        <div class="timeline-row right">
+          <div class="timeline-content">
+            <span class="timeline-time">21:00 - 22:00</span>
+            <h3>Müzik ve Eğlence</h3>
+            <p>Dans ve eğlence</p>
+          </div>
+        </div>
+
+
+        <div class="timeline-row left">
+          <div class="timeline-content">
+            <span class="timeline-time">22:00 - 22:30</span>
+            <h3>Takı Merasimi</h3>
+            <p>Takı töreni</p>
+          </div>
+        </div>
+
+
+        <div class="timeline-row right">
+          <div class="timeline-content">
+            <span class="timeline-time">00:00</span>
+            <h3>Gece Eğlencesi</h3>
+            <p>After party</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section reveal">
+      <p class="section-kicker">Mekan</p>
+      <h2>Polat Palandöken</h2>
+
+
+      <div class="slider venue-slider">
+        <button class="slider-btn prev" id="prevVenue">‹</button>
+
+
+        <div class="slider-window">
+          <img id="venueSlider" src="assets/otel1.webp" alt="Polat Palandöken mekan görseli" />
+        </div>
+
+
+        <button class="slider-btn next" id="nextVenue">›</button>
+      </div>
+
+
+      <p class="venue-address">
+        Palandöken Kayak Merkezi, Palandöken Yolu, Erzurum
+      </p>
+
+
+      <a
+        class="primary-button"
+        href="https://www.google.com/maps/search/?api=1&query=Polat%20Paland%C3%B6ken%20Erzurum"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Yol Tarifi Al
+      </a>
+    </section>
+
+
+    <section id="rsvp" class="section reveal">
+      <p class="section-kicker">LCV</p>
+      <h2>Katılım Bilgisi</h2>
+
+
+      <p class="small-text">
+        Katılım durumunuzu bizimle paylaşmanız yeterli.
+      </p>
+
+
+      <div class="form-box tally-box">
+  <iframe
+    data-tally-src="https://tally.so/embed/vGgZzX"
+    loading="lazy"
+    width="100%"
+    height="835"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    title="Düğünümüze davetlisiniz...">
+  </iframe>
+</div>
+<script>
+var d=document,w="https://tally.so/widgets/embed.js",v=function(){
+  "undefined"!=typeof Tally
+    ? Tally.loadEmbeds()
+    : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e){
+        e.src=e.dataset.tallySrc
+      })
+};
+if("undefined"!=typeof Tally)v();
+else if(d.querySelector('script[src="'+w+'"]')==null){
+  var s=d.createElement("script");
+  s.src=w;
+  s.onload=v;
+  s.onerror=v;
+  d.body.appendChild(s);
+}
+</script>
+    </section>
+
+
+    <section class="section reveal">
+      <p class="section-kicker">Anılar</p>
+      <h2>Fotoğraflarınızı Bizimle Paylaşın</h2>
+
+
+      <p class="small-text">
+        Düğün günü çektiğiniz fotoğraf ve videoları bizimle paylaşabilirsiniz.
+      </p>
+
+
+      <a
+        class="secondary-button"
+        href="https://photos.app.goo.gl/nWjGLg6oRJLTk1Es6"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Fotoğraf Yükle
+      </a>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <p>Sena & Burak</p>
+    <span>19 Eylül 2026</span>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
