@@ -30,7 +30,7 @@ body {
   background-repeat: repeat-y;
   background-position: center top;
   background-size: 100% auto;
-  background-attachment: scroll;
+  background-color: #fbf5ec;
   color: var(--cream);
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
