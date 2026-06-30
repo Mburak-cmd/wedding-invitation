@@ -26,7 +26,11 @@ html {
 
 body {
   margin: 0;
-  background: url("assets/bg6.jpeg") center center / cover fixed no-repeat;
+  background-image: url("assets/bg6.jpeg");
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100% auto;
+  background-attachment: scroll;
   color: var(--cream);
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
