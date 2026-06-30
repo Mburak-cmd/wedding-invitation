@@ -45,9 +45,10 @@ img {
 
 .hero {
   min-height: 100vh;
-  background: transparent;
-  background-size: cover;
-  background-position: center;
+  background-image: url("assets/bg6.jpeg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
   position: relative;
   display: grid;
   place-items: center;
