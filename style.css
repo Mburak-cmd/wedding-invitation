@@ -44,7 +44,7 @@ img {
 
 
 .hero {
-  min-height: 100vh;
+  min-height: 82vh;
   background: transparent;
   position: relative;
   display: grid;
@@ -534,13 +534,13 @@ h2 {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 100svh;
+    min-height: 82svh;
   }
-
 
   .section {
     padding: 72px 20px;
   }
+}
 
 
   h1 {
