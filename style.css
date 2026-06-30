@@ -26,11 +26,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url("assets/bg6.jpeg");
-  background-repeat: repeat-y;
-  background-position: center top;
-  background-size: 100% auto;
-  background-color: #fbf5ec;
+  background: url("assets/bg6.jpeg") center center / cover fixed no-repeat;
   color: var(--cream);
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
@@ -44,14 +40,17 @@ img {
 
 
 .hero {
-  min-height: 82vh;
+  min-height: 100vh;
   background: transparent;
+  background-size: cover;
+  background-position: center;
   position: relative;
   display: grid;
   place-items: center;
   text-align: center;
   padding: 24px;
 }
+
 
 .hero-overlay {
   position: absolute;
