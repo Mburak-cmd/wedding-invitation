@@ -486,3 +486,28 @@ document.getElementById("rsvpBtn").addEventListener("click", function (e) {
 
   requestAnimationFrame(animation);
 });
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicToggle");
+
+music.volume = 0.35;
+
+musicBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  if (music.paused) {
+    music.currentTime = 0;
+    music.play();
+    musicBtn.textContent = "🔇 Müziği Kapat";
+
+    setTimeout(() => {
+      music.pause();
+      music.currentTime = 0;
+      musicBtn.textContent = "🎵 Müziği Aç";
+    }, 30000);
+
+  } else {
+    music.pause();
+    music.currentTime = 0;
+    musicBtn.textContent = "🎵 Müziği Aç";
+  }
+});
