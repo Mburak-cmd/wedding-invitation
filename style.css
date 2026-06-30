@@ -26,9 +26,7 @@ html {
 
 body {
   margin: 0;
-  background: 
-    url("assets/bg-son2.png") center top / 100% auto no-repeat,
-    url("assets/bg7-bottom.jpeg") center bottom / 100% auto no-repeat;
+  background: url("assets/bgson3.jpg") center top / 100% auto no-repeat,
   background-color: #fbf5ec;
   color: var(--cream);
   font-family: "Inter", sans-serif;
