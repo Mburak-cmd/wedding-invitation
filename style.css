@@ -26,10 +26,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url("assets/bg-son.png");
-  background-repeat: repeat-y;
-  background-position: center top;
-  background-size: 736px auto;
+  background: url("assets/bg6.jpeg") center top / 100% auto no-repeat;
   background-color: #fbf5ec;
   color: var(--cream);
   font-family: "Inter", sans-serif;
