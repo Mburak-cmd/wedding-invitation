@@ -26,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background-image: url("assets/bg6.jpeg");
   color: var(--cream);
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
