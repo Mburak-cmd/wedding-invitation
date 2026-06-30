@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap");
 
+
 :root {
   --bg: #fbf5ec;
   --card: rgba(255, 255, 255, 0.78);
@@ -11,6 +12,7 @@
   --line: rgba(43, 37, 34, 0.14);
   --shadow: 0 14px 42px rgba(80, 55, 35, 0.10);
 }
+
 
 * {
   box-sizing: border-box;
@@ -39,7 +41,7 @@ img {
 
 .hero {
   min-height: 100vh;
-  background: transparent;
+  background-image: url("assets/hero.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -531,13 +533,13 @@ h2 {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 82svh;
+    min-height: 100svh;
   }
+
 
   .section {
     padding: 72px 20px;
   }
-}
 
 
   h1 {
