@@ -26,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url("assets/bg6.jpeg");
+  background: url("assets/bg6.jpeg") center top / 100% auto repeat-y;
   color: var(--cream);
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
@@ -41,9 +41,7 @@ img {
 
 .hero {
   min-height: 100vh;
-  background-image: url("assets/bg6.jpeg");
   background: transparent;
-  background-position: center;
   position: relative;
   display: grid;
   place-items: center;
