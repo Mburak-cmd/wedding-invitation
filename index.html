@@ -10,26 +10,14 @@
 
 
   <link rel="stylesheet" href="style.css" />
-<meta property="og:title" content="Sena & Burak | Düğün Davetiyesi" />
-<meta property="og:description" content="19 Eylül 2026’da bu özel günümüzde sizleri de yanımızda görmekten mutluluk duyarız." />
-<meta property="og:image" content="https://mburak-cmd.github.io/wedding-invitation/assets/davetiye-cover.png" />
-<meta property="og:url" content="https://mburak-cmd.github.io/wedding-invitation/" />
-<meta property="og:type" content="website" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Sena & Burak | Düğün Davetiyesi" />
-<meta name="twitter:description" content="19 Eylül 2026’da bu özel günümüzde sizleri de yanımızda görmekten mutluluk duyarız." />
-<meta name="twitter:image" content="https://mburak-cmd.github.io/wedding-invitation/assets/davetiye-cover.png" />
 </head>
 
 
 <body>
-  <audio id="bgMusic" loop>
-    <source src="assets/music.mp3" type="audio/mpeg" />
-  </audio>
-
-
-  <button class="music-button" id="musicButton">Müziği Aç</button>
+  
+  <button class="music-button" id="musicButton" onclick="toggleMusic()">
+  🎵 Müzik Aç
+</button>
 
 
   <header class="hero">
@@ -281,6 +269,9 @@ else if(d.querySelector('script[src="'+w+'"]')==null){
     <span>19 Eylül 2026</span>
   </footer>
 
+<audio id="bgMusic" preload="none" loop>
+  <source src="assets/spring2.mp3" type="audio/mpeg">
+</audio>
 
   <script src="script.js"></script>
 </body>
