@@ -385,28 +385,6 @@ revealElements.forEach(element => {
 });
 
 
-const music = document.getElementById("bgMusic");
-const musicButton = document.getElementById("musicButton");
-
-
-let isPlaying = false;
-
-
-musicButton.addEventListener("click", async () => {
-  try {
-    if (!isPlaying) {
-      await music.play();
-      isPlaying = true;
-      musicButton.textContent = "Müziği Kapat";
-    } else {
-      music.pause();
-      isPlaying = false;
-      musicButton.textContent = "Müziği Aç";
-    }
-  } catch (error) {
-    musicButton.textContent = "Müzik Açılamadı";
-  }
-});
 function slowScrollTo(targetY, duration = 2600) {
   const startY = window.scrollY;
   const distance = targetY - startY;
@@ -486,3 +464,42 @@ document.getElementById("rsvpBtn").addEventListener("click", function (e) {
 
   requestAnimationFrame(animation);
 });
+// ===== MUSIC =====
+
+let musicStopTimer = null;
+
+async function toggleMusic() {
+  const music = document.getElementById("bgMusic");
+  const btn = document.getElementById("musicButton");
+
+  if (!music || !btn) return;
+
+  if (music.paused) {
+    try {
+      clearTimeout(musicStopTimer);
+
+      music.currentTime = 0;
+      music.volume = 0.35;
+
+      await music.play();
+
+      btn.innerHTML = "🔇 Müzik Kapat";
+
+      musicStopTimer = setTimeout(() => {
+        music.pause();
+        music.currentTime = 0;
+        btn.innerHTML = "🎵 Müzik Aç";
+      }, 30000);
+
+    } catch (err) {
+      console.error(err);
+    }
+  } else {
+    clearTimeout(musicStopTimer);
+
+    music.pause();
+    music.currentTime = 0;
+
+    btn.innerHTML = "🎵 Müzik Aç";
+  }
+}
