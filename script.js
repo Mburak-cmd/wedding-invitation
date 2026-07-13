@@ -264,7 +264,7 @@ for (let y = 4; y < rect.height; y += 8) {
 
 
 const photos = [
-  "assets/photo-1.jpg",
+  "assets/wedding1.jpg",
   "assets/photo-2.jpg",
   "assets/photo-3.jpg",
   "assets/photo-4.jpg"
