@@ -8,7 +8,6 @@
   --muted: #7A6554;
 
   --soft: #fffaf3;
-  --gold: #c8a45d;
   --rose: #8a5260;
 
   --line: rgba(122, 101, 84, 0.16);
@@ -62,7 +61,7 @@ img {
 
 .eyebrow,
 .section-kicker {
-  color: var(--gold);
+  color: var(--cream);
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 12px;
@@ -130,9 +129,9 @@ h2 {
 }
 
 .primary-button:hover {
-  background: var(--gold);
+  background: var(--cream);
   color: #fff;
-  border-color: var(--gold);
+  border-color: var(--cream);
 }
 
 .secondary-button {
@@ -141,7 +140,7 @@ h2 {
 }
 
 .secondary-button:hover {
-  background: var(--gold);
+  background: var(--cream);
   color: #fff;
 }
 
@@ -214,7 +213,7 @@ h2 {
 
 .scratch-hint {
   margin: 9px 0 0;
-  color: var(--gold);
+  color: var(--cream);
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -235,7 +234,7 @@ h2 {
   top: -24px;
   width: 7px;
   height: 13px;
-  background: var(--gold);
+  background: var(--cream);
   opacity: 0;
   border-radius: 2px;
   animation: confettiFall 2.8s ease-out forwards;
@@ -300,7 +299,7 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-size: clamp(36px, 5vw, 58px);
   font-weight: 400;
-  color: var(--gold);
+  color: var(--cream);
 }
 
 .countdown span {
@@ -368,7 +367,7 @@ h2 {
 }
 
 .slider-btn:hover {
-  background: var(--gold);
+  background: var(--cream);
   color: #fff;
 }
 
@@ -396,7 +395,7 @@ h2 {
   bottom: 0;
   left: 50%;
   width: 2px;
-  background: var(--gold);
+  background: var(--cream);
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -415,7 +414,7 @@ h2 {
   width: 16px;
   height: 16px;
   background: var(--soft);
-  border: 3px solid var(--gold);
+  border: 3px solid var(--cream);
   border-radius: 50%;
   z-index: 3;
 }
@@ -450,7 +449,7 @@ h2 {
 
 .timeline-time {
   display: block;
-  color: var(--gold);
+  color: var(--cream);
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -673,7 +672,7 @@ h2 {
 
 .eyebrow,
 .section-kicker {
-  color: var(--gold);
+  color: var(--cream);
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 12px;
@@ -747,9 +746,9 @@ h2 {
 }
 
 .primary-button:hover {
-  background: var(--gold);
+  background: var(--cream);
   color: #fff;
-  border-color: var(--gold);
+  border-color: var(--cream);
 }
 
 .secondary-button {
@@ -758,7 +757,7 @@ h2 {
 }
 
 .secondary-button:hover {
-  background: var(--gold);
+  background: var(--cream);
   color: #fff;
 }
 
@@ -836,7 +835,7 @@ h2 {
 
 .scratch-hint {
   margin: 9px 0 0;
-  color: var(--gold);
+  color: var(--cream);
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -860,7 +859,7 @@ h2 {
   top: -24px;
   width: 7px;
   height: 13px;
-  background: var(--gold);
+  background: var(--cream);
   opacity: 0;
   border-radius: 2px;
   animation: confettiFall 2.8s ease-out forwards;
@@ -931,7 +930,7 @@ h2 {
   font-family: "Nunito", sans-serif;
   font-size: clamp(36px, 5vw, 58px);
   font-weight: 400;
-  color: var(--gold);
+  color: var(--cream);
 }
 
 .countdown span {
@@ -1002,7 +1001,7 @@ h2 {
 }
 
 .slider-btn:hover {
-  background: var(--gold);
+  background: var(--cream);
   color: #fff;
 }
 
@@ -1033,7 +1032,7 @@ h2 {
   bottom: 0;
   left: 50%;
   width: 2px;
-  background: var(--gold);
+  background: var(--cream);
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -1052,7 +1051,7 @@ h2 {
   width: 16px;
   height: 16px;
   background: var(--soft);
-  border: 3px solid var(--gold);
+  border: 3px solid var(--cream);
   border-radius: 50%;
   z-index: 3;
 }
@@ -1087,7 +1086,7 @@ h2 {
 
 .timeline-time {
   display: block;
-  color: var(--gold);
+  color: var(--cream);
   font-weight: 700;
   margin-bottom: 8px;
 }
