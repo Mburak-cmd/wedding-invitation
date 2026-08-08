@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Parisienne&display=swap");
 
 :root {
   --bg: #fbf5ec;
@@ -28,7 +28,7 @@ body {
   background: url("assets/bgson3.jpg") center top / 100% auto no-repeat;
   background-color: var(--bg);
   color: var(--cream);
-  font-family: "Parisienne", sans-serif;
+  font-family: "Nunito", sans-serif;
   overflow-x: hidden;
 }
 
@@ -92,7 +92,7 @@ h2 {
 }
 
 .hero-text {
-  font-family: "Parisienne", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   color: var(--cream);
   max-width: 560px;
@@ -113,7 +113,7 @@ h2 {
 .primary-button,
 .secondary-button,
 .music-button {
-  font-family: "Parisienne", sans-serif;
+  font-family: "Nunito", sans-serif;
   border: 1px solid rgba(200, 164, 93, 0.55);
   border-radius: 999px;
   padding: 14px 26px;
@@ -275,7 +275,7 @@ h2 {
 
 .countdown strong {
   display: block;
-  font-family: "Parisienne", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: clamp(36px, 5vw, 58px);
   font-weight: 400;
   color: var(--gold);
