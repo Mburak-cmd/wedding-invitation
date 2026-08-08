@@ -709,3 +709,15 @@ h2 {
   color: #fff;
   box-shadow: 0 10px 28px rgba(200, 164, 93, 0.22);
 }
+.tally-box iframe {
+  display: block;
+  width: 100%;
+  height: 520px;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .tally-box iframe {
+    height: 470px;
+  }
+}
