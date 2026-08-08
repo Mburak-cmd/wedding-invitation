@@ -125,9 +125,8 @@ h2 {
 }
 
 .primary-button {
-  background: var(--gold);
-  color: #fff;
-  box-shadow: 0 10px 28px rgba(200, 164, 93, 0.22);
+   color: var(--cream);
+  background: rgba(255, 255, 255, 0.62);
 }
 
 .primary-button:hover {
