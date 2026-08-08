@@ -129,20 +129,9 @@ h2 {
   background: rgba(255, 255, 255, 0.62);
 }
 
-.primary-button:hover {
-  background: var(--gold);
-  color: #fff;
-  border-color: var(--gold);
-}
-
 .secondary-button {
   color: var(--cream);
   background: rgba(255, 255, 255, 0.62);
-}
-
-.secondary-button:hover {
-  background: var(--gold);
-  color: #fff;
 }
 
 /* MUSIC BUTTON */
