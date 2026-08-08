@@ -185,7 +185,7 @@ h2 {
   border-radius: 999px;
   overflow: hidden;
   border: 1px solid rgba(200, 164, 93, 0.48);
-  background: rgba(255, 255, 255, 0.62);
+  background: var(--soft);
   box-shadow: var(--shadow);
 }
 
