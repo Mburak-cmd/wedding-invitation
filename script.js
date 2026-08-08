@@ -73,18 +73,18 @@ if (scratchCanvas) {
 const gradient = ctx.createLinearGradient(0, 0, rect.width, 0);
 
 
-gradient.addColorStop(0, "#efe4d6");
-gradient.addColorStop(0.25, "#f7efe5");
-gradient.addColorStop(0.50, "#fffaf3");
-gradient.addColorStop(0.75, "#f7efe5");
-gradient.addColorStop(1, "#efe4d6");
+gradient.addColorStop(0, "#5f4d40");
+gradient.addColorStop(0.25, "#6d594a");
+gradient.addColorStop(0.50, "#7A6554");
+gradient.addColorStop(0.75, "#6d594a");
+gradient.addColorStop(1, "#5f4d40");
 
 
 ctx.fillStyle = gradient;
 ctx.fillRect(0, 0, rect.width, rect.height);
 
 
-ctx.fillStyle = "#7A6554";
+ctx.fillStyle = "#fffaf3";
 ctx.font = "600 13px Inter";
 ctx.textAlign = "center";
 ctx.textBaseline = "middle";
